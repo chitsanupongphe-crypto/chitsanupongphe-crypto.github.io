@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Resume of Chitsanupong Phengpol" />
+  <title>Chitsanupong Phengpol | Resume</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="#home" class="logo">CP<span>.</span></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="เปิดเมนู">
+        ☰
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Chitsanupong<br><span>Phengpol</span></h1>
+
+          <p class="hero-role">
+            Information Technology Student
+            <span>•</span>
+            Web Developer
+          </p>
+
+          <p class="hero-desc">
+            สนใจด้านการพัฒนาเว็บไซต์ ระบบฐานข้อมูล และเทคโนโลยีสารสนเทศ
+            พร้อมเรียนรู้สิ่งใหม่และนำความรู้ไปพัฒนางานให้มีประสิทธิภาพมากยิ่งขึ้น
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">ดูผลงาน</a>
+            <a class="btn btn-outline" href="#contact">ติดต่อฉัน</a>
+          </div>
+
+          <div class="social-row">
+            <a href="https://github.com/chitsanupongphe-crypto" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="profile-wrap">
+            <img src="profile.jpg" alt="Chitsanupong Phengpol" class="profile-img"
+                 onerror="this.style.display='none';document.querySelector('.profile-placeholder').style.display='grid';">
+            <div class="profile-placeholder">
+              <span>CP</span>
+              <small>ใส่รูปชื่อ profile.jpg</small>
+            </div>
+          </div>
+
+          <div class="status-card">
+            <span class="status-dot"></span>
+            <div>
+              <small>CURRENTLY</small>
+              <strong>Learning & Building</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-no">01</p>
+          <div>
+            <p class="eyebrow">ABOUT ME</p>
+            <h2>เกี่ยวกับฉัน</h2>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              ผมเป็นนักศึกษาสาขาเทคโนโลยีสารสนเทศที่สนใจการสร้างเว็บไซต์
+              การจัดการฐานข้อมูล และการนำเทคโนโลยีมาช่วยแก้ปัญหาในการทำงาน
+              มีประสบการณ์ฝึกทำโปรเจกต์ด้วย HTML, CSS, PHP, MySQL และ GitHub Pages
+            </p>
+
+            <p>
+              เป้าหมายของผมคือพัฒนาทักษะด้าน Web Development และ IT
+              ให้สามารถสร้างระบบที่ใช้งานได้จริง มีโครงสร้างที่ดี
+              และตอบโจทย์ผู้ใช้งาน
+            </p>
+          </div>
+
+          <div class="stats reveal">
+            <div class="stat">
+              <strong>IT</strong>
+              <span>Major</span>
+            </div>
+            <div class="stat">
+              <strong>Web</strong>
+              <span>Interest</span>
+            </div>
+            <div class="stat">
+              <strong>SQL</strong>
+              <span>Database</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-no">02</p>
+          <div>
+            <p class="eyebrow">MY SKILLS</p>
+            <h2>ทักษะ</h2>
+          </div>
+        </div>
+
+        <div class="skill-grid">
+          <article class="skill-card reveal">
+            <span>01</span>
+            <h3>HTML5</h3>
+            <p>วางโครงสร้างเว็บไซต์แบบ Semantic และ Responsive</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span>02</span>
+            <h3>CSS3</h3>
+            <p>ออกแบบหน้าเว็บด้วย Flexbox, Grid และ Responsive Design</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span>03</span>
+            <h3>PHP</h3>
+            <p>สร้างเว็บแบบ Dynamic และเชื่อมต่อข้อมูลจากฐานข้อมูล</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span>04</span>
+            <h3>MySQL</h3>
+            <p>ออกแบบตาราง เขียน Query และจัดการข้อมูลในระบบ</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span>05</span>
+            <h3>GitHub</h3>
+            <p>จัดเก็บ Source Code และเผยแพร่เว็บไซต์ผ่าน GitHub Pages</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span>06</span>
+            <h3>Make.com</h3>
+            <p>ออกแบบ Workflow และ Automation สำหรับงานต่าง ๆ</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-no">03</p>
+          <div>
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2>ผลงาน</h2>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card reveal">
+            <div class="project-top">
+              <p class="project-no">PROJECT 01</p>
+              <a href="#" class="project-link">VIEW ↗</a>
+            </div>
+            <h3>Personnel Information System</h3>
+            <p>
+              ระบบแสดงข้อมูลบุคลากร ดึงข้อมูลจากฐานข้อมูล MySQL
+              และแสดงรายละเอียดการศึกษา หลักสูตร และข้อมูลส่วนบุคคลผ่านหน้าเว็บไซต์
+            </p>
+            <div class="tags">
+              <span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <p class="project-no">PROJECT 02</p>
+              <a href="#" class="project-link">VIEW ↗</a>
+            </div>
+            <h3>Guest & Member Login Website</h3>
+            <p>
+              ระบบเว็บไซต์ที่ผู้ใช้งานทั่วไปสามารถดูข้อมูลบางส่วนได้
+              และสมาชิกที่เข้าสู่ระบบสามารถเข้าถึงข้อมูลเพิ่มเติม
+            </p>
+            <div class="tags">
+              <span>PHP</span><span>Session</span><span>MySQL</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <p class="project-no">PROJECT 03</p>
+              <a href="#" class="project-link">VIEW ↗</a>
+            </div>
+            <h3>Attendance Automation</h3>
+            <p>
+              แนวคิดระบบบันทึกเวลาเข้าใช้งานหรือเช็กชื่อ
+              พร้อม Workflow Automation สำหรับลดขั้นตอนการทำงานซ้ำ
+            </p>
+            <div class="tags">
+              <span>Make.com</span><span>Automation</span><span>Workflow</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-no">04</p>
+          <div>
+            <p class="eyebrow">EDUCATION</p>
+            <h2>การศึกษา</h2>
+          </div>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p class="timeline-year">Present</p>
+              <h3>คณะเทคโนโลยีสารสนเทศ</h3>
+              <p>สาขาเทคโนโลยีสารสนเทศ</p>
+              <small>สามารถแก้ชื่อมหาวิทยาลัยและรายละเอียดได้ในไฟล์ index.html</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>มาร่วมสร้าง<br>สิ่งดี ๆ ไปด้วยกัน</h2>
+        </div>
+
+        <div class="contact-card reveal">
+          <p>สนใจพูดคุยเรื่องงาน โปรเจกต์ หรือแลกเปลี่ยนความรู้ด้าน IT สามารถติดต่อได้ที่</p>
+          <a href="mailto:your-email@example.com">your-email@example.com</a>
+          <a href="https://github.com/chitsanupongphe-crypto" target="_blank" rel="noopener">
+            github.com/chitsanupongphe-crypto ↗
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Chitsanupong Phengpol</p>
+      <a href="#home">BACK TO TOP ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
